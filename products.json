@@ -1,0 +1,28 @@
+[
+  {
+    "code": "VOUCHER",
+    "name": "Voucher",
+    "price": 5.00,
+    "discount": {
+      "type": "percent",
+      "value": 50,
+      "min_count": 2
+    }
+  },
+  {
+    "code": "TSHIRT",
+    "name": "T-shirt",
+    "price": 20.00,
+    "discount": {
+      "type": "ppu",
+      "value": 1,
+      "min_count": 3
+    }
+  },
+  {
+    "code": "MUG",
+    "name": "Coffee mug",
+    "price": 7.50,
+    "discount": null
+  }
+]
